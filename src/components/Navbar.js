@@ -1,6 +1,7 @@
 
 import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/react";
 import { AiOutlineUser, AiOutlineApartment, AiOutlinePartition, AiTwotoneGift, AiTwotoneBulb, AiOutlineAppstore, AiOutlineDollar} from "react-icons/ai";
+import {Link} from "@nextui-org/react";
 import Image from 'next/image';
 
 export default function Navbar(){
@@ -14,7 +15,7 @@ export default function Navbar(){
                         <p>Home</p>
                     </li>
                     <li className="flex flex-col pb-4 justify-center text-center">
-                    <span className="mx-auto bg-gradient-to-r from-blue-500 to-green-500 lg:from-yellow-500 lg:to-pink-500 p-1 rounded-lg"><AiOutlineApartment size={18} /></span>
+                    <span className="mx-auto bg-gradient-to-r from-[#CC3334] to-[#8546DB] via-[#2B9AD9] lg:from-[#CC3334] lg:via-[#8546DB]  lg:to-[#2B9AD9] p-1 rounded-lg"><AiOutlineApartment size={18} /></span>
                         <p className="text-white font-semibold">Distributors</p>
                     </li>
                     <li className="flex flex-col pb-4 justify-center text-center">
