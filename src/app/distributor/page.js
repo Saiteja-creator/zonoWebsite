@@ -10,29 +10,29 @@ import { IoCall } from "react-icons/io5";
 
 export default function distributor() {
     return (
-      <main className="flex flex-row w-full m-1 bg-[#ECF0F6]">
+      <main className="flex flex-row w-full m-0 p-2 md:p-0 md:bg-[#ECF0F6]">
         
-        <Card className="w-1/5 h-screen p-4 ml-[60px] mt-2 fixed">
+        <Card className="w-1/5 h-screen pl-1 pt-2 lg:p-4 ml-[60px] mt-2 fixed hidden md:block">
             <CardBody>
-            <h2 className="pb-4 text-md font-semibold">I am a Distributors</h2>
+            <h2 className="pb-4 md:text-sm lg:text-base font-semibold">I am a Distributors</h2>
             <div className="space-y-2 justify-start text-left">
-            <Button className="w-full flex justify-start gap-2 text-left p-30 bg-[#35A7E8] rounded-full px-4 py-3 text-white text-sm">
-            <AiOutlineUserAdd size={18}/>What does Zono do?
+            <Button className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 text-white text-xs">
+            <Image width={22} height={22} alt="icon" src="/Distributors/Zotok_icon.svg" />What Zono
             </Button>
-            <Button variant="light" className="w-full flex justify-start gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full px-4 py-3 hover:text-black text-sm">
-            <AiOutlineUserAdd size={18}/>Ordering
+            <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
+            <Image width={22} height={22} alt="icon" src="/Distributors/Ordering_icon.svg" />Ordering
       </Button> 
-      <Button variant="light" className="w-full flex justify-start gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full px-4 py-3 hover:text-black text-sm">
-      <AiTwotoneWarning size={18}/>Collections
+      <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
+      <Image width={22} height={22} alt="icon" src="/Distributors/Collections_icon.svg" />Collections
       </Button> 
-      <Button variant="light" className="w-full flex justify-start gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full px-4 py-3 hover:text-black text-sm">
-      <AiOutlineUserAdd size={18}/>Reconciliation
+      <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
+      <Image width={22} height={22} alt="icon" src="/Distributors/Reconsolations_icon.svg" />Reconciliation
       </Button> 
-      <Button variant="light" className="w-full flex justify-start gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full px-4 py-3 hover:text-black text-sm">
-      <AiOutlineUserAdd size={18}/>Marketing
+      <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
+      <Image width={22} height={22} alt="icon" src="/Distributors/Marketing_icon.svg" />Marketing
       </Button> 
-      <Button variant="light" className="w-full flex justify-start gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full px-4 py-3 hover:text-black text-sm">
-      <AiOutlineUserAdd size={18}/>FAQ
+      <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
+      <Image width={22} height={22} alt="icon" src="/Distributors/Faq_icon.svg" />FAQ
       </Button> 
 
             </div>
@@ -40,107 +40,94 @@ export default function distributor() {
 
         </Card>
         
-        <div className="w-3/4 h-auto m-2 ml-[24%]">
+        <div className=" w-full md:w-[70%] lg:w-3/4 h-auto m-0 md:m-2 md:ml-[29%] lg:ml-[24%]">
         <Header />
         
-        <div className="h-[379px] w-full bg-[#E2E2FF] flex flex-row justify-between items-center mt-16">
-        <h1 className="text-5xl font-semibold pl-8 text-left leading-none">I am a <br />Distributor</h1>
-          <div>
-            <ul>
-              <li className="flex flex-col pb-4 justify-center text-center">
-                        <span className=" bg-[#ffffff] p-1 rounded-full shadow-xl mx-auto"><AiOutlineUser size={18} /></span>
-                        <p className="text-xs text-left leading-1">FMC <br />Distributor</p>
-                    </li>
-              
-            </ul>
-          </div>
+        <div className="h-[379px] w-full bg-[#E2E2FF] rounded-xl flex flex-col md:flex-row justify-around md:justify-between items-center md:mt-16">
+        <div>
+        <h1 className="text-3xl md:text-3xl lg:text-[70px] font-semibold md:pl-8 lg:pl-12 text-center md:text-left leading-none pb-4">I am a <br />Distributor</h1>
+        <p className="md:hidden text-xs mx-auto w-2/3 text-center">How does a Distributor get benefit of using the Zotok Platform?</p>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <Image width={494} height={249} alt="banner" src="/D_image01.svg" />
+            </div>
         </div>
       
-        <div className="h-auto w-full flex flex-row justify-between items-center bg-inherit">
-          <div className="flex flex-col w-2/5 m-12 p-4">
-          <h1 className="text-3xl font-semibold text-left leading-none pb-4">What can ZöTok do for me?</h1>
-          <p>ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.</p>
-          <div className="mt-10 bg-opacity-0">
+        <div className="h-auto w-full flex flex-col lg:flex-row justify-between items-center bg-inherit">
+          <div className="flex flex-col w-full lg:w-2/5 mx-0 my-8 lg:m-12 p-0 md:p-4">
+          <h1 className=" text-2xl lg:text-[32px] font-semibold text-left leading-none pb-4">What can ZöTok do for me?</h1>
+          <p className="text-sm text-default-600 lg:text-[16px]">ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.</p>
+          <div className="mt-6 md:mt-10 bg-opacity-0">
             <div>
-              <div className="flex flex-col gap-4">
-              <Button className="w-full flex flex-row justify-between gap-2 text-left text-black px-8 py-10 bg-white shadow-lg">
+              <div className="flex flex-col gap-2">
+              <Button className="w-full flex flex-row justify-between text-left text-black px-4 py-8 border lg:border-none lg:px-4 md:py-10 bg-white">
             <div className="flex flex-col justify-start text-lg">Increased Turnover <span className="text-sm text-default-600">Zotok allows the customer to see...</span></div>
-            <div> <AiOutlineUserAdd size={18}/></div>
+            <div className="bg-primary-100 rounded-lg p-2"> <Image width={24} height={24} alt="icons" src="/increased_turnover.svg" /></div>
             </Button>
-            <Button className="w-full flex flex-row justify-between gap-2 text-left text-black px-8 py-10 bg-white shadow-lg">
+            <Button className="w-full flex flex-row justify-between text-left text-black px-4 py-8 border lg:border-none lg:px-4 md:py-10 bg-white">
             <div className="flex flex-col justify-start text-lg">Higher Profitability <span className="text-sm text-default-600">Zotok analytics identifies inactive...</span></div>
-            <div> <AiOutlineUserAdd size={18}/></div>
+            <div className="bg-success-100 rounded-lg p-2"> <Image width={24} height={24} alt="icons" src="/higher_profitability.svg" /></div>
             </Button>
-            <Button className="w-full flex flex-row justify-between gap-2 text-left text-black px-8 py-10 bg-white shadow-lg">
+            <Button className="w-full flex flex-row justify-between text-left text-black px-4 py-8 border lg:border-none lg:px-4 md:py-10 bg-white">
             <div className="flex flex-col justify-start text-lg">Peace Of Mind <span className="text-sm text-default-600">Zotok frees up your time from...</span></div>
-            <div> <AiOutlineUserAdd size={18}/></div>
+            <div className="bg-secondary-100 rounded-lg p-2"> <Image width={24} height={24} alt="icons" src="/peace_of_mind.svg" /></div>
             </Button>
               </div>
             </div>
           </div>
           </div>
-          <Card className="w-3/5 flex flex-col p-10 justify-center items-center my-12">
-            <CardBody className="flex flex-col justify-center items-center">
-              <ul className="flex flex-row gap-10 pb-3">
-                <li className="flex flex-col justify-center items-center text-sm"><span className="text-dxs">RETAILER</span> Santosh Traders</li>
-                <li className="flex flex-col justify-center items-center text-sm"><span className="text-dxs">RETAILER</span> Sri Sai Traders</li>
-                <li className="flex flex-col justify-center items-center text-sm"><span className="text-dxs">RETAILER</span> Patel Brothers</li>
-              </ul>
-              <div><Image className="text-center justify-center items-center w-full h-full"src="/Group 378216/Group 378216.png" /></div>
-              <ul className="flex flex-row gap-10 pt-3">
-                <li className="flex flex-col justify-center items-center text-sm"><span className="text-dxs">DISTRIBUTOR</span> Waghmare Foods</li>
-                <li className="flex flex-col justify-center items-center text-sm"><span className="text-dxs">DISTRIBUTOR</span> Patwa Ayurved</li>
-                <li className="flex flex-col justify-center items-center text-sm"><span className="text-dxs">DISTRIBUTOR</span> Daftari Agro</li>
-              </ul>
+          <Card className="md:w-full lg:w-3/5 md:flex flex-col p-0 justify-center items-center md:my-6 lg:my-12 lg:mx-6 hidden">
+            <CardBody className="flex flex-col justify-center items-center p-0">
+              <div><Image className="text-center justify-center items-center w-full h-full"src="/Zotak_DIs_mainbanner.png" /></div>
             </CardBody>
           </Card>
         </div>
 
-        <div className="h-auto w-full flex flex-row justify-between items-center bg-inherit">
-          <div className="flex flex-col w-2/5 m-12 p-4">
-          <h1 className="text-3xl font-semibold text-left leading-none pb-4">What can ZöTok do for me?</h1>
-          <p>ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.</p>
-          <div className="mt-10 bg-opacity-0">
+        <div className="h-auto w-full flex flex-col lg:flex-row justify-between items-center bg-inherit">
+        <div className="flex flex-col w-full lg:w-2/5 mx-0 my-8 lg:m-12 p-0 md:p-4">
+          <h1 className=" text-2xl lg:text-[32px] font-semibold text-left leading-none pb-4">What can ZöTok do for me?</h1>
+          <p className="text-sm text-default-600 lg:text-[16px]">ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.</p>
+          <div className="mt-6 md:mt-10 bg-opacity-0">
             <div>
-              <div className="flex flex-col gap-4">
-              <Button className="w-full flex flex-row justify-between gap-2 text-left text-black px-8 py-10 bg-[#92BEFF] shadow-lg">
-            <div className="flex flex-col justify-start text-lg">Increased Turnover <span className="text-sm text-default-600">Zotok allows the customer to see...</span></div>
-            <div> <AiOutlineUserAdd size={18}/></div>
+              <div className="flex flex-col gap-2">
+              <Button className="w-full flex flex-row justify-between text-left text-black px-4 py-8 border lg:border-none lg:px-4 md:py-10 bg-white lg:bg-primary-200">
+            <div className="flex flex-col justify-start text-lg ">Increased Turnover <span className="text-sm text-default-600">Zotok allows the customer to see...</span></div>
+            <div className="bg-primary-100 rounded-lg p-2"> <Image width={24} height={24} alt="icons" src="/increased_turnover.svg" /></div>
             </Button>
-            <Button className="w-full flex flex-row justify-between gap-2 text-left text-black px-8 py-10 bg-white shadow-lg">
+            <Button className="w-full flex flex-row justify-between text-left text-black px-4 py-8 border lg:border-none lg:px-4 md:py-10 bg-white">
             <div className="flex flex-col justify-start text-lg">Higher Profitability <span className="text-sm text-default-600">Zotok analytics identifies inactive...</span></div>
-            <div> <AiOutlineUserAdd size={18}/></div>
+            <div className="bg-success-100 rounded-lg p-2"> <Image width={24} height={24} alt="icons" src="/higher_profitability.svg" /></div>
             </Button>
-            <Button className="w-full flex flex-row justify-between gap-2 text-left text-black px-8 py-10 bg-white shadow-lg">
+            <Button className="w-full flex flex-row justify-between text-left text-black px-4 py-8 border lg:border-none lg:px-4 md:py-10 bg-white">
             <div className="flex flex-col justify-start text-lg">Peace Of Mind <span className="text-sm text-default-600">Zotok frees up your time from...</span></div>
-            <div> <AiOutlineUserAdd size={18}/></div>
+            <div className="bg-secondary-100 rounded-lg p-2"> <Image width={24} height={24} alt="icons" src="/peace_of_mind.svg" /></div>
             </Button>
               </div>
             </div>
           </div>
           </div>
-          <Card className="w-3/5 flex flex-col p-10 my-12">
-            <CardBody className="flex flex-col justify-center items-center">
-              <div><Image className="text-center justify-center items-center w-full h-full object-cover"src="/I am DT • What does Zono do /Group 377860@2x.png" /></div>
+          <Card className="md:w-full lg:w-3/5 md:flex hidden flex-col p-2 md:my-6 lg:mb-12 lg:mx-6 ">
+            <CardBody className="flex flex-col justify-center items-center w-full">
+              <div className="w-full h-full p-0 mx-auto"><Image alt="banner" className="w-full h-full" src="/I am DT • What does Zono do /Group 377860@2x.png" /></div>
               </CardBody>
-              <CardFooter className="flex flex-col justify-start items-start">
+              <CardFooter className="flex flex-col justify-start items-start px-6">
                 <h2 className="text-2xl pb-4 text-left justify-start">Increased Turnover</h2>
-                <div className="flex flex-row ">
-                  <div className="flex flex-row gap-2 pb-4 text-xs">
+                <div className="flex flex-row gap-4">
+                  <div className="flex flex-row gap-2 pb-4 text-xs lg:pe-8">
                     <div>
-                      <RiCheckboxCircleFill color="#3AD394" size={32} /> 
+                      <RiCheckboxCircleFill color="#3AD394" size={30} /> 
                     </div>
                     ZoTok allows 24X7 order processing - with automated quotations an dorder receipt - with no enquiry left unattended.
                   </div>
-                  <div className="flex flex-row gap-2 pb-4 text-xs">
+                  <div className="flex flex-row gap-2 pb-4 text-xs lg:pe-8">
                     <div>
-                    <RiCheckboxCircleFill color="#3AD394" size={32} />
+                    <RiCheckboxCircleFill color="#3AD394" size={30} />
                     </div>
                     ZoTok allows 24X7 order processing - with automated quotations an dorder receipt - with no enquiry left unattended.</div>
                   </div>
-                <div className="flex flex-row">
-                  <div className="flex flex-row gap-2 pb-4 w-1/2 text-xs">
-                    <div><RiCheckboxCircleFill color="#3AD394" size={32} /></div>
+                <div className="flex flex-row gap-4">
+                  <div className="flex flex-row gap-2 pb-4 w-1/2 text-xs lg:pe-8">
+                    <div><RiCheckboxCircleFill color="#3AD394" size={30} /></div>
                      ZoTok allows 24X7 order processing - with automated quotations an dorder receipt - with no enquiry left unattended.</div>
                 </div>
                 <div className="w-full flex justify-end">
