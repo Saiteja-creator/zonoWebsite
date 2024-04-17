@@ -22,6 +22,12 @@ module.exports = {
       '5xl': '3rem',      // 5x large
       '6xl': '4rem',  
     },
+    fontFamily: {
+      'sans': ['Arial', 'sans-serif'],
+      'serif': ['Times New Roman', 'serif'],
+      'mono': ['Courier New', 'monospace'],
+      
+    },
     
     extend: {
       backgroundImage: {

@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10; /* Ensures the header stays on top of other content */
+  }
+#m_nav_sc header{ padding: 0 10px; margin: 0;}
+#m_nav_sc header button {width: 30px; outline: none;}
+
