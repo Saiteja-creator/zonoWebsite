@@ -26,46 +26,46 @@ export default function NavbarPages(){
       ];
     return (
         <>
-            <nav className="w-[68px] md:flex flex-col hidden justify-between lg:ml-0 z-20 bg-slate-800 rounded-md text-gray-300 font-light text-dxs mx-auto py-4 h-screen fixed">
+            <nav className="w-1/18 md:flex flex-col hidden justify-between lg:ml-0 z-20 bg-slate-800 rounded-md text-gray-300 font-light text-dxs mx-auto py-4 h-screen fixed">
 
               < ul>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                         <span className="mx-auto"><Image width={32} height={32} alt="icons" src="/menu_icons/Home_icon.svg" /></span>
                         <p>Home</p>
                     </li>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                         <span className="mx-auto"><Image width={28} height={28} alt="icons" src="/menu_icons/Knowus_icon.svg" /></span>
                         <p>Know Us</p>
                     </li>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                         <span className="mx-auto"><Image width={28} height={28} alt="icons" src="/menu_icons/Brand_icon.svg" /></span>
                         <p>Brands</p>
                     </li>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                     <span className="mx-auto"><Image width={28} height={28} alt="icons" src="/menu_icons/Distributors_icon.svg" /></span>
                         <p className="text-white font-semibold">Distributors</p>
                     </li>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                         <span className="mx-auto"><Image width={28} height={28} alt="icons" src="/menu_icons/Retailers_icon.svg" /></span>
                         <p>Retailers</p>
                     </li>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                         <span className="mx-auto"><Image width={28} height={28} alt="icons" src="/menu_icons/Ourapps_icon.svg" /></span>
                         <p>Our Apps</p>
                     </li>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                         <span className="mx-auto"><Image width={28} height={28} alt="icons" src="/menu_icons/Advertisers_icon.svg" /></span>
                         <p>Advertisours</p>
                     </li>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                         <span className="mx-auto"><Image width={28} height={28} alt="icons" src="/menu_icons/Partners_icon.svg" /></span>
                         <p>Parterners</p>
                     </li>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                         <span className="mx-auto"><Image width={28} height={28} alt="icons" src="/menu_icons/Pricing_icon.svg" /></span>
                         <p>Pricing</p>
                     </li>
-                    <li className="flex flex-col pb-4 justify-center text-center">
+                    <li className="flex flex-col pb-3 justify-center text-center">
                         <span className="mx-auto"><Image width={28} height={28} alt="icons" src="/menu_icons/Joinus_icon.svg" /></span>
                         <p>Join Us</p>
                     </li>
@@ -114,3 +114,9 @@ export default function NavbarPages(){
         
     )
 }
+
+
+{/* +>utils folder =>RouterData.js =>we create List Routers   impIt has object page:name of page , Icon:image of Icon , RouterPath: create path of a page
+
+  we import data from RouterData.js and iterate every object and add Link to It (Next ui ) 
+*/}

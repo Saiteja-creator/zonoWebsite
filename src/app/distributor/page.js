@@ -13,7 +13,7 @@ export default function distributor() {
     return (
       <main className="flex flex-row w-full justify-between m-0 md:p-0 md:bg-[#ECF0F6]">
         
-        <Card className="w-1/5 h-screen pl-1 pt-2 lg:p-4 ml-[60px] fixed hidden md:block">
+        <Card className="w-1/5 lg:w-[19%] xl:w-[18.5%] 2xl:w-[19.5%] h-screen pl-1 pt-2 ml-[3.8%] lg:ml-[6%] xl:ml-[5.5%] 2xl:ml-[4%] fixed hidden md:block">
             <CardBody>
             <h2 className="pb-4 md:text-sm lg:text-base font-semibold">I am a Distributors</h2>
             <div className="space-y-2 justify-start text-left">
@@ -41,7 +41,7 @@ export default function distributor() {
 
         </Card>
         
-        <div className=" w-full md:w-[70%] lg:w-[75%] h-auto m-0 md:ml-[29%] lg:ml-[26.5%] xl:ml-[25.5%] 2xl:ml-[24.5%]">
+        <div className=" w-full md:w-[70%] lg:w-[74%] xl:w-[75%] 2xl:w-[75%] h-auto m-0 md:ml-[29%] lg:ml-[26.5%] xl:ml-[25%] 2xl:ml-[24.5%]">
         <Header />
         
         <div className="h-[379px] w-full bg-[#E2E2FF] rounded-xl flex flex-col md:flex-row justify-around md:justify-between items-center md:mt-16">

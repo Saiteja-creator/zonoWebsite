@@ -7,8 +7,8 @@ import { IoIosArrowDown } from "react-icons/io";
 
 export default function Header(){
     return (
-        <div className="header_section">
-        <Card className="md:flex hidden flex-col fixed z-20 w-3/4 h-16">
+        <div className="header_section box-border">
+        <Card className="md:flex hidden flex-col fixed z-20 w-full md:w-[70%] lg:w-[72.5%] xl:w-[74%] 2xl:w-[74.5%] h-16">
             <CardBody className="flex flex-row justify-between items-center">
             <div>
                 <Image width={100} height={100} alt="logo" src="/ft_logo.png" />
