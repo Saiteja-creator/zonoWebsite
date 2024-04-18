@@ -39,4 +39,39 @@ export const RoutersPagesData=[
         page:"Join Us",
         Icon:"/menu_icons/Joinus_icon.svg",
         RoutePath:"/joinus"    },]
-        
+
+
+
+ export const DistributorsTabsDetails=[
+    {
+        icon:"/Distributors/Zotok_icon.svg",
+        text:"What does Zono do?",
+        id:"zotok"
+    },
+    {
+        icon:"/Distributors/Ordering_icon.svg",
+        text:"Ordering",
+        id:"Ordering",
+    },
+    {
+        icon:"/Distributors/Collections_icon.svg",
+        text:"Collections",
+        id:"Collections"
+    },
+    {
+        icon:"/Distributors/Reconsolations_icon.svg",
+        text:"Reconcilliation",
+        id:"Reconcilliation"
+    },
+    {
+        icon:"/Distributors/Marketing_icon.svg",
+        text:"Marketing",
+        id:"Marketing"
+    },
+    {
+        icon:"/Distributors/Faq_icon.svg",
+        text:"FAQ",
+        id:"FAQ"
+    },
+
+]

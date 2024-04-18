@@ -8,38 +8,14 @@ import Header from "@/components/Header";
 import { IoCall } from "react-icons/io5";
 import { BsArrowUpRight } from "react-icons/bs";
 import { CiUser } from "react-icons/ci";
-
+import DistributorTabs from "@/components/DistributorsTabs";
 export default function distributor() {
     return (
       <main className="flex flex-row w-full justify-between m-0 md:p-0 md:bg-[#ECF0F6]">
+        <DistributorTabs />
         
-        <Card className="w-1/5 lg:w-[19%] xl:w-[18.5%] 2xl:w-[19.5%] h-screen pl-1 pt-2 ml-[3.8%] lg:ml-[6%] xl:ml-[5.5%] 2xl:ml-[4%] fixed hidden md:block">
-            <CardBody>
-            <h2 className="pb-4 md:text-sm lg:text-base font-semibold">I am a Distributors</h2>
-            <div className="space-y-2 justify-start text-left">
-            <Button className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 text-white text-xs">
-            <Image width={22} height={22} alt="icon" src="/Distributors/Zotok_icon.svg" />What does ZöTok do?
-            </Button>
-            <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
-            <Image width={22} height={22} alt="icon" src="/Distributors/Ordering_icon.svg" />Ordering
-      </Button> 
-      <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
-      <Image width={22} height={22} alt="icon" src="/Distributors/Collections_icon.svg" />Collections
-      </Button> 
-      <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
-      <Image width={22} height={22} alt="icon" src="/Distributors/Reconsolations_icon.svg" />Reconciliation
-      </Button> 
-      <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
-      <Image width={22} height={22} alt="icon" src="/Distributors/Marketing_icon.svg" />Marketing
-      </Button> 
-      <Button variant="light" className="w-full flex justify-start md:gap-1 lg:gap-2 text-left p-30 hover:bg-[#35A7E8] rounded-full md:px-1 lg:px-4 py-3 hover:text-black text-xs">
-      <Image width={22} height={22} alt="icon" src="/Distributors/Faq_icon.svg" />FAQ
-      </Button> 
-
-            </div>
-            </CardBody>
-
-        </Card>
+        
+        
         
         <div className=" w-full md:w-[70%] lg:w-[74%] xl:w-[75%] 2xl:w-[75%] h-auto m-0 md:ml-[29%] lg:ml-[26.5%] xl:ml-[25%] 2xl:ml-[24.5%]">
         <Header />

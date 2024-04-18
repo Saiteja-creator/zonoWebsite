@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavbarPages from "@/components/Navbar";
+import NavbarPagess from "@/components/NavbarPage";
 
 
 
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className=" bg-white md:bg-[#ECF0F6]">
       <body className="m-2">
-        <NavbarPages/>
+        <NavbarPagess    />
         {children}</body>
     </html>
   );
