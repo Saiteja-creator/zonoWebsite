@@ -26,7 +26,7 @@ module.exports = {
       'sans': ['Arial', 'sans-serif'],
       'serif': ['Times New Roman', 'serif'],
       'mono': ['Courier New', 'monospace'],
-      
+      'hoves': ['Arial', 'sans-serif'],
     },
     
     extend: {

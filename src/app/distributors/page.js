@@ -17,7 +17,7 @@ export default function distributor() {
         
         
         
-        <div className=" w-full md:w-[70%] lg:w-[74%] xl:w-[75%] 2xl:w-[75%] h-auto m-0 md:ml-[29%] lg:ml-[26.5%] xl:ml-[25%] 2xl:ml-[24.5%]">
+        <div className=" w-full md:w-[69%] lg:w-[74%] xl:w-[75%] 2xl:w-[75%] h-auto m-0 md:ml-[31%] lg:ml-[26.5%] xl:ml-[25%] 2xl:ml-[24.5%]">
         <Header />
         
         <div className="h-[379px] w-full bg-[#E2E2FF] rounded-xl flex flex-col md:flex-row justify-around md:justify-between items-center md:mt-16">
@@ -33,23 +33,23 @@ export default function distributor() {
         <div className="dis_tab_mobile md:hidden my-4">
         <h2 className="pb-4 md:text-sm lg:text-base font-semibold">I am a Distributors</h2>
         <div className="w-full h-auto overflow-x-scroll">
-          <div className="flex flex-row justify-round gap-4 border-none mb-2">
+          <div className="flex flex-row justify-round gap-6 border-none mb-3">
             <Button variant="light" className="w-full gap-0 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-2 border-primary-400 rounded-none text-primary-400 text-sm px-0 mx-0">
             <CiUser size={20} />What does ZöTok do?
             </Button>
-            <Button variant="light" className="w-full gap-0 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
+            <Button variant="light" className="w-full gap-1 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
             <Image width={20} height={20} alt="icon" src="/Distributors/Ordering_icon.svg" /> Ordering
             </Button> 
-            <Button variant="light" className="w-full gap-0 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
+            <Button variant="light" className="w-full gap-1 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
               <Image width={20} height={20} alt="icon" src="/Distributors/Collections_icon.svg" />Collections
             </Button> 
-            <Button variant="light" className="w-full gap-0 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
+            <Button variant="light" className="w-full gap-1 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
               <Image width={20} height={20} alt="icon" src="/Distributors/Reconsolations_icon.svg" />Reconciliation
             </Button> 
-            <Button variant="light" className="w-full gap-0 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
+            <Button variant="light" className="w-full gap-1 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
               <Image width={20} height={20} alt="icon" src="/Distributors/Marketing_icon.svg" />Marketing
             </Button> 
-            <Button variant="light" className="w-full gap-0 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
+            <Button variant="light" className="w-full gap-1 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-0 border-primary-400 rounded-none text-default-600 text-sm px-0 mx-0">
               <Image width={20} height={20} alt="icon" src="/Distributors/Faq_icon.svg" />FAQ
             </Button> 
           </div>
@@ -100,7 +100,9 @@ export default function distributor() {
         <div className="h-auto w-full flex flex-col lg:flex-row justify-between items-center bg-inherit">
         <div className="flex flex-col w-full lg:w-2/5 mx-0 my-8 lg:m-12 p-0 md:p-4">
           <h1 className=" text-2xl lg:text-[32px] font-semibold text-left leading-none pb-4">What can ZöTok do for me?</h1>
-          <p className="text-sm text-default-600 lg:text-[16px]">ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.</p>
+          <p className="text-sm text-default-600 lg:text-[16px] font-hoves">ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.</p>
+          <p className="text-sm text-default-600 lg:text-[16px] mt-4">ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.</p>
+          
           <div className="mt-6 md:mt-10 bg-opacity-0">
             <div>
             <div className="flex flex-col gap-2">
