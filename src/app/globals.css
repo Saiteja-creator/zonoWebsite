@@ -11,11 +11,19 @@
   }
   @font-face {
     font-family: 'hoves';
-    font-style: normal;
+    font-style: medium;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/TTHovesMedium.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'hoves';
+    font-style: bold;
     font-weight: 700;
     font-display: swap;
     src: url(/fonts/TTHovesBold.otf) format('opentype');
   }
+
 .sticky-header {
     position: fixed;
     top: 0;

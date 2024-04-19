@@ -8,3 +8,14 @@ export default function brands() {
       </main>
     );
   }
+
+  {/*
+  1.Create Three Cards 
+  1.card
+    +>render that particular image ,content
+  2.card
+  >render that particular image ,content
+  3.card
+  >render that particular image ,content
+
+*/}

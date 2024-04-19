@@ -9,6 +9,7 @@ import { IoCall } from "react-icons/io5";
 import { BsArrowUpRight } from "react-icons/bs";
 import { CiUser } from "react-icons/ci";
 import DistributorTabs from "@/components/DistributorsTabs";
+import DistributorsModal from "@/components/DistributorsModal";
 export default function distributor() {
     return (
       <main className="flex flex-row w-full justify-between m-0 md:p-0 md:bg-[#ECF0F6]">
@@ -55,6 +56,7 @@ export default function distributor() {
           </div>
          </div>
         </div>
+        {/* <DistributorsModal /> */}
       
         <div className="h-auto w-full flex flex-col lg:flex-row justify-between items-center bg-inherit">
           <div className="flex flex-col w-full lg:w-2/5 mx-0 my-8 lg:m-12 p-0 md:p-4">

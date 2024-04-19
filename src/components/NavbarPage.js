@@ -41,7 +41,7 @@ export default function NavbarPagess(){
                     />
                     <NavbarBrand>
                 
-                    <p className="font-bold text-inherit text-xl">ZöTok</p>
+                    <p className="font-bold text-inherit text-xl"><a href="/">ZöTok</a></p>
                     </NavbarBrand>
             </NavbarContent>
 
