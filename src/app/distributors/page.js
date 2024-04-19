@@ -100,10 +100,8 @@ export default function distributor() {
         <div className="h-auto w-full flex flex-col lg:flex-row justify-between items-center bg-inherit">
         <div className="flex flex-col w-full lg:w-2/5 mx-0 my-8 lg:m-12 p-0 md:p-4">
           <h1 className=" text-2xl lg:text-[32px] font-semibold text-left leading-none pb-4">What can ZöTok do for me?</h1>
-          <p className="text-sm text-default-600 lg:text-[16px] font-hoves">ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.</p>
           <p className="text-sm text-default-600 lg:text-[16px] mt-4">ZöTok allows you to communicate with all your principals and customers on a single mobile first system. It allows you to bring all your business conversations like orders, payments, schemes, campaigns, ledger etc, on an integrated WhatsApp like platform.</p>
-          
-          <div className="mt-6 md:mt-10 bg-opacity-0">
+        <div className="mt-6 md:mt-10 bg-opacity-0">
             <div>
             <div className="flex flex-col gap-2">
               <Button className="w-full flex flex-col md:flex-row h-full md:h-auto justify-between items-start text-left text-black px-4 py-4 border lg:border-none lg:px-4 md:py-4 bg-white lg:bg-primary-200">
