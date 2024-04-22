@@ -5,9 +5,9 @@ import { BiSolidQuoteAltRight } from "react-icons/bi";
 
 export default function CustomerSpeaks(){
     const speakItems = [
-        {"icons":<Image className="pe-2" width={66} height={66} alt="icons" src="/Home/Speak_icon.png" />, title:"Vishal Distributors, Hyderbad", text:"ZoAI is acting like my assistant in replying to my customers automatically..."},
-        {"icons":<Image className="pe-2" width={66} height={66} alt="icons" src="/Home/Speak_icon.png" />, title:"Vishal Distributors, Hyderbad", text:"ZoAI is acting like my assistant in replying to my customers automatically..."},
-        {"icons":<Image className="pe-2" width={66} height={66} alt="icons" src="/Home/Speak_icon.png" />, title:"Vishal Distributors, Hyderbad", text:"ZoAI is acting like my assistant in replying to my customers automatically..."}
+        {"icons":<Image className="pe-2" width={100} height={100} alt="icons" src="/Home/Speak_icon.png" />, title:"Vishal Distributors, Hyderbad", text:"ZoAI is acting like my assistant in replying to my customers automatically..."},
+        {"icons":<Image className="pe-2" width={100} height={100} alt="icons" src="/Home/Speak_icon.png" />, title:"Vishal Distributors, Hyderbad", text:"ZoAI is acting like my assistant in replying to my customers automatically..."},
+        {"icons":<Image className="pe-2" width={100} height={100} alt="icons" src="/Home/Speak_icon.png" />, title:"Vishal Distributors, Hyderbad", text:"ZoAI is acting like my assistant in replying to my customers automatically..."}
         
       ];
     return (
@@ -17,7 +17,7 @@ export default function CustomerSpeaks(){
             <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-4 lg:gap-10">
                     {speakItems.map((item, index) => (
                     <div className="flex flex-row p-5 border rounded-xl" key={`${item}-${index}`}>
-                        <div className="flex justify-center items-center">
+                        <div className="flex justify-center items-start">
                         {item.icons}
                         </div>
                         <div className="flex flex-col">

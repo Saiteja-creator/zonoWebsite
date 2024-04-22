@@ -32,7 +32,7 @@ export default function distributor() {
         </div>
 
         <div className="dis_tab_mobile md:hidden my-4">
-        <h2 className="pb-4 md:text-sm lg:text-base font-semibold">I am a Distributors</h2>
+        <h2 className="pb-4 md:text-sm lg:text-base font-semibold ps-1">I am a Distributors</h2>
         <div className="w-full h-auto overflow-x-scroll">
           <div className="flex flex-row justify-round gap-6 border-none mb-3">
             <Button variant="light" className="w-full gap-0 min-w-fit flex justify-start text-left bg-transparent hover:bg-transparent hover:text-primary-400 border-b-2 border-primary-400 rounded-none text-primary-400 text-sm px-0 mx-0">

@@ -12,7 +12,7 @@ export default function DistributorTabs(){
     return (
         <Card className="w-1/5 md:w-[23%] lg:w-[19%] xl:w-[18.5%] 2xl:w-[19.5%] h-screen pl-1 pt-2 ml-[3.8%] md:ml-[6%] lg:ml-[6%] xl:ml-[5.5%] 2xl:ml-[4%] fixed hidden md:block">
           <CardBody>
-          <h2 className="pb-2 md:text-sm lg:text-base font-semibold">I am a Distributors</h2>
+          <h2 className="pb-2 md:text-sm lg:text-base font-semibold lg:ps-2">I am a Distributors</h2>
             <ul className="space-y-2 justify-start text-left">
                 {DistributorsTabsDetails.map((eachEle)=>(
                     <li key={eachEle.id}>

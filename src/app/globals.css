@@ -33,3 +33,5 @@
 #m_nav_sc header{ padding: 0 10px; margin: 0;}
 #m_nav_sc header button {width: 30px; outline: none;}
 
+.slick-dots li {margin: 0 1px!important;}
+.slick-dots li button::before {font-size: 12px!important;}
