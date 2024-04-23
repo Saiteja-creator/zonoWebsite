@@ -1,3 +1,4 @@
+"use client"
 import {Card, CardHeader, CardBody, CardFooter, Divider, Image} from "@nextui-org/react";
 import { Link, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll'
 import {DistributorsTabsDetails} from  '@/utils/RouterData'
