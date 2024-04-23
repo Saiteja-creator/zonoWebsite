@@ -1,7 +1,7 @@
 
 "use client"
 
-import EachDistributorDes from "./EachDistributorDetails"
+import EachDistributorDes from "./eachDistributorDetails"
 
 
 export default function DistributorTabDetails({staticData}){

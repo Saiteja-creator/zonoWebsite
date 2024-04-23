@@ -1,7 +1,7 @@
 "use client"
 import {Card, CardHeader, CardBody, CardFooter, Divider, Image} from "@nextui-org/react";
 import { Link, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll'
-import {DistributorsTabsDetails} from  '@/utils/RouterData'
+import { DistributorTabDetailsData } from "@/utils/routerdata";
 import {Button} from "@nextui-org/react";
 import React,{useState} from 'react';
 
@@ -15,7 +15,7 @@ export default function DistributorTabs(){
           <CardBody>
           <h2 className="pb-2 md:text-sm lg:text-base font-semibold lg:ps-2">I am a Distributors</h2>
             <ul className="space-y-2 justify-start text-left">
-                {DistributorsTabsDetails.map((eachEle)=>(
+                {DistributorTabDetailsData.map((eachEle)=>(
                     <li key={eachEle.id}>
                         <Button variant="light" className={`flex flex-row px-2 my-2 mx-1 ${
                     activeTab === eachEle.id ? 'bg-[#35A7E8] w-full rounded-full text-white text-sm' : 'text-[#091E42] w-full rounded-full text-sm'

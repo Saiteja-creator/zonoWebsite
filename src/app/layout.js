@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavbarPagess from "@/components/NavbarPage";
-
+import NavbarPage from "@/components/navbarpage";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -15,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className=" bg-white md:bg-[#ECF0F6]">
       <body className="m-2 font-hoves">
-        <NavbarPagess    />
+        <NavbarPage  />
         {children}</body>
     </html>
   );

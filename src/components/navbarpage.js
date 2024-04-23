@@ -7,10 +7,10 @@ import { AiOutlineUser, AiOutlineApartment, AiOutlinePartition, AiTwotoneGift, A
 import Image from 'next/image';
 import MenuIcon from '../../public/menuIcon.svg'
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
-import { RoutersPagesData } from "@/utils/RouterData";
+import { RoutersPagesData } from "@/utils/routerdata";
 import { usePathname } from 'next/navigation';
 
-export default function NavbarPagess(){
+export default function NavbarPage(){
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const currentPath = usePathname()
     const isActive =(path)=>{
@@ -21,8 +21,8 @@ export default function NavbarPagess(){
         <nav className="w-[4.5%] md:w-[7.5%] lg:w-[6.5%] xl:w-[6%] 2xl:w-[4.5%] md:flex flex-col hidden justify-between lg:ml-0 z-20 bg-slate-800 rounded-md text-gray-300 font-light text-dxs mx-auto py-4 h-screen fixed">
            
             <ul>
-                {RoutersPagesData.map((eachRouter)=>(
-                    <li className="flex flex-col pb-3 justify-center text-center" key={eachRouter.key}>
+                {RoutersPagesData.map((eachRouter,item)=>(
+                    <li className="flex flex-col pb-3 justify-center text-center" key={item}>
                         <Link href={eachRouter.RoutePath} className="flex flex-col justify-center items-center">
                             <span className="mx-auto"><Image width={32} height={32} alt="icons" src={eachRouter.Icon}/></span>
                             <p className={isActive(eachRouter.RoutePath)?'text-white text-dxs ':'text-gray-400 text-dxs '}>{eachRouter.page}</p>

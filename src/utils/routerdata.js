@@ -42,11 +42,11 @@ export const RoutersPagesData=[
 
 
 
- export const DistributorsTabsDetails=[
+ export const DistributorTabDetailsData=[
     {
         icon:"/Distributors/Zotok_icon.svg",
         text:"What does Zono do?",
-        id:"zotok"
+        id:"WhatZono"
     },
     {
         icon:"/Distributors/Ordering_icon.svg",

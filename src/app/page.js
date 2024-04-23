@@ -1,10 +1,10 @@
 import Image from "next/image";
 import {Button} from "@nextui-org/react";
-import HeaderHome from "@/components/HeaderHome";
-import CustomerSpeaks from "@/components/CustomerSpeaks";
-import SliderBanner from "@/components/SliderBanner";
-import Footer from "@/components/Footer";
-import ChatBoxHome from "@/components/ChatBoxHome";
+import HeaderHome from "@/components/headerHome";
+import CustomerSpeaks from "@/components/customerSpeaks";
+import SliderBanner from "@/components/sliderBanner";
+import Footer from "@/components/footer";
+import ChatBoxHome from "@/components/chatBoxHome";
 
 export default function Home() {
   return (

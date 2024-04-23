@@ -1,18 +1,19 @@
 
-import Navbar from "@/components/Navbar";
+
 import {Button} from "@nextui-org/react";
-import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nextui-org/react";
-import {AiOutlineUserAdd, AiTwotoneWarning, AiOutlineUser} from "react-icons/ai";
-import { RiCheckboxCircleFill } from "react-icons/ri";
-import Header from "@/components/Header";
-import { IoCall } from "react-icons/io5";
-import { BsArrowUpRight } from "react-icons/bs";
+import { Image} from "@nextui-org/react";
+
+import Header from "@/components/header";
+
+
 import { CiUser } from "react-icons/ci";
-import DistributorTabs from "@/components/DistributorsTabs";
-import DistributorsModal from "@/components/DistributorsModal";
-import DistributorTabDetails from "@/components/DistributorTabDetails ";
+import DistributorTabs from "@/components/distributorsTabs";
+import DistributorsModal from "@/components/distributorsModal";
+import DistributorTabDetails from "@/components/distributorTabDetails ";
+import convertdistData from "@/utils/convertContentful";
 
 import { StaticTabDescription } from "@/utils/staticData";
+
 
 
 
@@ -20,15 +21,17 @@ const { CONTENTFUL_SPACE_ID, CONTENTFUL_ACCESS_TOKEN } = process.env;
 
 async function getBlocks() {
   const res = await fetch(
-    `https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/entries?access_token=${process.env.CONTENTFUL_ACCESS_TOKEN}&content_type=page`
+    `https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/entries?access_token=${process.env.CONTENTFUL_ACCESS_TOKEN}&content_type=distributorTabDetails`
   )
   return res.json();
 }
 export default async function distributor() {
 
   const data = await getBlocks();
-  // const updatedDistData= convertDist(data.items.reverse())
-  console.log(data)
+  const updateDistData=convertdistData(data)
+ 
+  
+  
    
     return (
       <main className="flex flex-row w-full justify-between m-0 md:p-0 md:bg-[#ECF0F6]">
@@ -77,7 +80,7 @@ export default async function distributor() {
         </div>
         {/* <DistributorsModal /> */}
         
-        <DistributorTabDetails staticData={StaticTabDescription}/>
+        <DistributorTabDetails staticData={updateDistData}/>
         
 
         
