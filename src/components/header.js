@@ -1,4 +1,4 @@
-
+"use client"
 import {Card, CardHeader, CardBody, CardFooter, Button} from "@nextui-org/react";
 import Image from 'next/image';
 import {Accordion, AccordionItem} from "@nextui-org/react";

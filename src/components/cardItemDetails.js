@@ -4,12 +4,12 @@ import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nex
 import { IoCall } from "react-icons/io5";
 import {Button} from "@nextui-org/react";
 export default function CardItemDetails({activecardDes}){
-    const {id,heading,paragraph,cardItemImage}= activecardDes
+    const {id,heading,paragraph,cardItemDetailsImage}= activecardDes
     console.log("heading",heading)
     return (
         <Card className="md:w-full lg:w-3/5 md:flex hidden flex-col p-2 md:my-6 lg:mb-12 lg:mx-6 shadow-none">
             <CardBody className="flex flex-col justify-center items-center w-full">
-              <div className="w-full h-full p-0 mx-auto"><Image alt="banner" className="w-full h-full max-w-full" src="/Group 377860@2x.png" /></div>
+              <div className="w-full h-full p-0 mx-auto"><Image alt="banner" className="w-full h-full max-w-full" src={cardItemDetailsImage} /></div>
               </CardBody>
               <CardFooter className="flex flex-col justify-start items-start px-6">
                 <h2 className="text-2xl pb-4 text-left justify-start">{heading}</h2>
